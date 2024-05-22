@@ -120,7 +120,43 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
+   /* navbar-logo */  
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 334px;
+    height: 35px;
+}
+.navbar_btn {
+    border: 2px solid transparent;
+}
+.navbar_btn:hover {
+    border-top-color: blue;
+}
+.btn_activites {
+    width: 63px;
+    height: 35px;
+}
+header {
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    height: auto;
+    box-sizing: border-box;
+}
+nav {
+    min-width: 300px;
+    width: 25%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    padding: 30px 50px 30px 0px;
+}
+.logo >img {
+    height: 19px;
+}
 
 
 
@@ -159,7 +195,10 @@ a {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+ 
 }
+    
+
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
