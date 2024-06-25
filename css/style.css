@@ -79,6 +79,11 @@ a {
     justify-content: center;
     gap: 30px;
 }
+.hebergements .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 .hebergements-title{
     display: flex;
     justify-content: space-between;
@@ -104,6 +109,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     gap: 5px;
+    flex-grow: 1;
 }
 .hebergements-cards .card-subtitle{
     margin: 0;
@@ -299,8 +305,9 @@ nav {
     justify-content: center;
     width: 24px;
     height: 24px;
-    border-radius: 50%;
+    border-radius: 100%;
     border: 1px solid #DEEBFF;
+    flex-shrink: 0;
 }
 
 /* Section Activité à Marseille */
